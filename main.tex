@@ -1,0 +1,86 @@
+\documentclass[12pt]{article}
+
+% House style preamble
+\input{.house-style/preamble.tex}
+
+% Update PDF metadata
+\hypersetup{
+  pdftitle={Reply to Gibson on dependency syntax}
+}
+
+\title{Grammaticality needs more than locality}
+\author{Brett Reynolds \orcidlink{0000-0003-0073-7195}%
+\thanks{Contact: \href{mailto:brett.reynolds@humber.ca}{brett.reynolds@humber.ca}}\\
+Humber Polytechnic \& University of Toronto}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+% TiCS Letter format: no abstract; no section headings in body; body is a
+% running argument with paragraph breaks. Target ~760 words; hard cap 800.
+% Drafting order: body first (dissociations), concessions, framework recap,
+% opener, diagnosis. See docs/plans/2026-04-20-tics-letter-drafting-plan.md.
+
+% ===== P1 (target ~80w, actual ~69w): Opening — thesis + dissociation preview =====
+\textcite{gibson2026} argues that dependency grammar is \enquote{the simplest theory of grammar}.
+The case combines two kinds of claim.
+The first is representational: a language's syntax consists of \enquote{just the set of dependency rules}, with \enquote{no phrase structure or transformation rules}.
+The second is explanatory: dependency locality serves as the unifying principle behind processing effects and crosslinguistic word-order regularities.
+
+But simplicity depends on the question at issue.
+Dependency grammar is a natural and perspicuous formalism for questions about word-to-word linkage and locality, and this is where Gibson's evidence is strongest.
+Whether the formalism also amounts to a full theory of grammar, as the title suggests, is a separate question.
+
+% ===== P2 (target ~100w, actual ~92w): Concessions + Gibson-internal hedges =====
+Much of what Gibson argues is well established.
+Dependency locality has robust corpus support as a processing primitive, with cross-linguistic evidence that real grammars cluster on short-dependency orders \citep{futrellMahowaldGibson2015}.
+His LLM-learnability critique has real force against poverty-of-the-stimulus arguments that presuppose transformational derivations.
+
+Even so, the broader title claim goes beyond what the locality literature itself supports.
+\textcite{futrell2020} decline to claim that \enquote{dependency grammar is the only correct description of syntax} (p.~373); \textcite{hahnJurafskyFutrell2020} suggest that dependency-length minimization is downstream of more general parseability and predictability pressures, \enquote{without a need for further constraints} (p.~5).
+
+% ===== P3 (demoted to framing sentence per 2026-04-21 revision): grammaticality as question-type =====
+For present purposes, grammaticality concerns the licensed form-meaning pairings of a speech community.
+Processing viability contributes to what is licensed, but so does what the community has conventionalized over time, and those two contributions need not coincide \citep{reynoldsmiller2026grammaticality}.
+
+% ===== P4 (revised 2026-04-21): 57 years — form-meaning licensing moved up from §5 =====
+Licensing can turn on form-meaning conventions that tree geometry doesn't by itself encode.
+Consider the English string \mention{I have 57 years}.
+It reads naturally as a statement of duration, answering a question like \enquote{How long until you get out?}, but as an age reading, answering \enquote{How old are you?}, it is unavailable in contemporary Standard English.
+The duration construal is licensed under contextual recovery; the age construal is not.
+The dependency skeleton is the same across both readings; what differs is what the English community has conventionalized.
+The case doesn't threaten dependency notation (Gibson pairs rules with a lexicon), but it locates much of the explanatory work in the conventional inventory rather than in the geometry itself.
+
+% ===== P5 (target ~140w, actual ~105w): Selective satiation, Lu 2024 + LBC-independence pre-emption =====
+Selective satiation shows another dissociation.
+\textcite{Lu2024} present a meta-analysis of 25 satiation experiments across seven English island types: adjunct, complex-NP, subject, \mention{that}-trace, \mention{want-for}, \mention{whether}-island, and the Left Branch Condition.
+All are standardly analyzed as nonlocal dependency configurations.
+Six of the seven satiate reliably, with acceptability rising between 0.005 and 0.030 units per repetition on a 0--1 scale, and subject-island ratings rising roughly one point on a seven-point scale across ten repetitions \citep[14]{Lu2024}.
+The Left Branch Condition is the exception; its estimate of $-0.0021$ (95\% CI $[-0.0046, 0.0004]$) is consistent with either no satiation or a negligible effect.
+If any single simplicity factor settled these contrasts, exposure would be expected to relax them at roughly comparable rates.
+That the LBC remains stable while the others yield is therefore difficult to accommodate on a single-factor account.
+
+% ===== P6 (conditional ~60w, actual ~55w): Agreement-attraction grammatical asymmetry =====
+Agreement attraction shows a further one.
+In self-paced reading, a plural attractor (\mention{cabinets} in \mention{The key to the cabinets are on the table}) reduces the disruption that readers normally show at a mismatched verb; matched grammatical sentences with the same attractor show no comparable effect \citep{Wagers2009}.
+\textcite{phillips2011grammatical} describe this as a grammatical asymmetry: attraction effects concentrate in ungrammatical strings and are largely absent from grammatical ones.
+An account that treated acceptability as a reflex of processing load would predict disruption to track memory burden regardless of grammaticality; the asymmetry the literature actually finds goes in a different direction, and suggests that what is licensed and what feels processable are driven by separable factors.
+
+% ===== P7 (revised 2026-04-21): scope diagnosis, HPC demoted, no pluralism-about-phrase-structure flank =====
+Taken together, these three cases suggest that while dependency locality is a powerful explanatory factor, which is the central thrust of Gibson's body, the broader title claim reaches for something the evidence itself does not clearly establish.
+Licensing and processing feel can diverge; the same dependency skeleton can support one form-meaning pairing and block another within a single speech community; and the processing of syntactically problematic strings can pattern by grammatical status in ways that memory load alone would not predict.
+If dependency grammar is the simplest theory of grammar, it has to handle facts like these.
+
+Gibson's own concluding remarks draw a similar distinction.
+He describes dependency grammar there as \enquote{the simplest formalism for how words are connected to one another within a sentence}, which is narrower and more defensible than the titular \enquote{simplest theory of grammar}.
+It is the narrower claim that the evidence supports, and grammaticality asks more than word-to-word connection.
+
+\section*{Declaration of generative AI use}
+
+% Per Elsevier/Cell author policy: name the tool and the purpose of use.
+During the preparation of this Letter, the author used Claude (Anthropic) for argument development, structural review, and prose drafting. The author reviewed and revised all content and takes full responsibility for the final text.
+
+\printbibliography
+
+\end{document}

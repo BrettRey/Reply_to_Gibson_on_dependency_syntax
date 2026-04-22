@@ -1,0 +1,32 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.out
+*.run.xml
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# macOS
+.DS_Store
+
+# Internal drafting artifacts (not for public repo)
+docs/
+notes/
+advisory-board.md
+DECISIONS.md
+.agent/
+.house-style-version
+references-local.bib
+
+# AI-agent guidance (local workflow only)
+CLAUDE.md
+AGENTS.md
+GEMINI.md
+
+# Symlink to central bibliography (public repo uses references-standalone.bib)
+references.bib
